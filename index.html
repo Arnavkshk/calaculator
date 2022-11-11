@@ -8,32 +8,37 @@
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
+    <h1>CALCULATOR</h1>
     <div id="main">
-    <div id="textview"></div>    
+    <textarea name="text" id="textview" cols="10" rows="10"></textarea>   
     <div id="upper">
-    <div id="r1" class="col1"><button id="1">1</button></div>
-    <div id="r2" class="col1"> <button id="2">2</button></div>
-    <div id="r3" class="col1"></div>
-    <div id="r4" class="col1"></div>
+    <button id="1" class="col1" onclick="one()">1</button>
+    <button id="2" class="col1" onclick="two()">2</button>
+    <button id="3" class="col1" onclick="three()">3</button>
+    <button id="+" class="col1" onclick="plus()">+</button>
     </div>
     <div id="midd">
-    <div id="r5" class="col2"></div>
-    <div id="r6" class="col2"></div>
-    <div id="r7" class="col2"></div>
-    <div id="r8" class="col2"></div>
+    <button id="4" class="col2" onclick="four()">4</button>
+    <button id="5" class="col2" onclick="five()">5</button>
+    <button id="6" class="col2" onclick="six()">6</button>
+    <button id="-" class="col2" onclick="sub()">-</button>
     </div>
     <div id="midd2"> 
-    <div id="r9" class="col3"></div>
-    <div id="r10" class="col3"></div>
-    <div id="r11" class="col3"></div>
-    <div id="r12" class="col3"></div>
+    <button id="7" class="col3" onclick="seven()">7</button>
+    <button id="8" class="col3" onclick="eight()">8</button>
+    <button id="9" class="col3" onclick="nine()">9</button>
+    <button id="*" class="col3" onclick="mul()">*</button>
     </div>
     <div id="bottom">
-    <div id="r13" class="col4"></div>
-    <div id="r14" class="col4"></div>
-    <div id="r15" class="col4"></div>
-    <div id="r16" class="col4"></div>
-    <div id="r17" class="col4"></div></div>
+    <button id="." class="col4" onclick="point()">.</button>
+    <button id="0" class="col4" onclick="zero()">0</button>
+    <button id="/" class="col4" onclick="divide()">/</button>
+    <button id="+" class="col4" onclick="esc()">AC</button>
+    </div>
+    <div id="bottom2">
+    <button id="=" class="col5" onclick="calc()">=</button>
+    <button id="clear" class="col5" onclick="clr()">clear</button>
+    </div>
     </div>
     <script src="calc.js"></script>
 </body>

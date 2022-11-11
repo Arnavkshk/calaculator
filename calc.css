@@ -2,58 +2,100 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #main{
-    width: 50%;
+    width: 30%;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(42, 18, 198);
+    border: 10px solid rgb(81, 101, 0)
 }
 #textview{
-    width: 35%;
+    resize: none;
+    width: 50%;
     height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
 }
 #upper{
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
 #midd{
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
 #midd2{
-    width: 35%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
 #bottom{
-    width: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom2{
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
 .col1{
-    justify-content: space-between  ;
-    width: 30px;
-    height: 30px;
-}
-#r1{
+    width: 50px;
+    height: 50px;
 }
 .col2{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 .col3{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 .col4{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+}
+.col5{
+    width: 90px;
+    height: 50px;
+}
+button{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #008554;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(78, 88, 67);
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 05px #666;
+    transform: translateY(4px);
+  }
+@media(max-width:500px){
+    #main{
+        width: 90%;
+    }
 }
