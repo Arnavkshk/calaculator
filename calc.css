@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#textview{
+    width: 35%;
+    height: 40px;
+}
+#upper{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#midd{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#midd2{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.col1{
+    justify-content: space-between  ;
+    width: 30px;
+    height: 30px;
+}
+#r1{
+}
+.col2{
+    width: 30px;
+    height: 30px;
+}
+.col3{
+    width: 30px;
+    height: 30px;
+}
+.col4{
+    width: 30px;
+    height: 30px;
+}
